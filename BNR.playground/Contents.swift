@@ -3,4 +3,4 @@
 import UIKit
 
 var str = "Hello, Joren"
-
+let string2 = "Dag github"
