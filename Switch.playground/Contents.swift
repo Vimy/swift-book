@@ -42,3 +42,24 @@ case (_, 404):
 default:
     print("All items found.")
 }
+
+//if case statement
+let age = 27
+
+if case 18...35 = age, age >= 21, age <= 29
+{
+    print("Cool demographic")
+}
+
+let point = (x: 1, y: 4)
+
+
+switch point
+{
+case let q1 where (point.x > 0) && (point.y > 0):
+    print("\(q1) is in quadrant 1")
+default:
+    print("Case not covered")
+    
+    
+}
