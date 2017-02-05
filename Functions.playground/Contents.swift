@@ -17,3 +17,20 @@ func personalPrintGreeting(name: String)
 
 personalPrintGreeting(name: "Jos")
 
+func divisionDescriptionFor(numerator: Double, denominator: Double)
+{
+    print("\(numerator) divided by \(denominator) equals \(numerator / denominator)")
+}
+
+divisionDescriptionFor(numerator: 10, denominator: 4)
+
+//external parameters
+
+func anotherPersonalPrintGreeting(to name: String)
+{
+    print("Hello \(name), welcome!")
+}
+
+anotherPersonalPrintGreeting(to: "Marc")
+
+
